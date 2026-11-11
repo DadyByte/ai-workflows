@@ -34,7 +34,7 @@ flowchart TD
 The gate steps, in order:
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Re-index search] --> B[Drop dead vectors]
     B --> C[Embed]
     C --> D[Regenerate facts]

@@ -11,7 +11,7 @@ One agent building and then approving its own work would not do. I needed the wo
 ## What runs
 
 ```mermaid
-flowchart LR
+flowchart TD
     U[Understand] --> B[Build]
     B --> R[Review]
     R --> F[Fix]
